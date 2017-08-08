@@ -2,10 +2,10 @@
 
 GITHUB_URL=https://github.com/Personare/editorconfig/archive/master.tar.gz
 EXTRACT_FILE=editorconfig-master/.editorconfig
-COMMIT_MESSAGE='chore: insert editorconfig file from @Personare/editorconfig'
+COMMIT_MESSAGE='(chore): insert editorconfig file from @Personare/editorconfig'
 
 if [ -f .editorconfig ]; then
-    COMMIT_MESSAGE='chore: updating editorconfig file'
+    COMMIT_MESSAGE='(chore): updating editorconfig file'
 fi
 
 curl -fsSL $GITHUB_URL | tar -xz --strip-components=1 $EXTRACT_FILE
