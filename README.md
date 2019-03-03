@@ -1,6 +1,6 @@
 # EditorConfig
 
-> EditorConfig settings followed by us here at @Personare
+> EditorConfig file to use when starting a new project at [@Personare](https://github.com/Personare/)
 
 ## Install
 
